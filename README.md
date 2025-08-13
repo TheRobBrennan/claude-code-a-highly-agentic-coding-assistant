@@ -36,7 +36,6 @@ The following npm scripts are available in this project:
 
 ```bash
 npm test       # Run GitHub workflow tests using test-workflows.sh
-npm test:old   # Original test script (outputs an error as tests are not yet implemented)
 ```
 
 Additional scripts will be added as they are created during the course.
