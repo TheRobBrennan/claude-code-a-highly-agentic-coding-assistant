@@ -1,104 +1,55 @@
-# Starting Point
+# Claude Code: A Highly Agentic Coding Assistant
 
-A clean starting point for new projects with pre-configured GitHub Actions workflows and Windsurf rules integration. This template provides a solid foundation for your projects with automated workflows for PR validation, semantic versioning enforcement, and more.
+This repository contains my work for the DeepLearning.AI short course: [Claude Code: A Highly Agentic Coding Assistant](https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/).
 
-## 🚀 Features
+## About This Course
 
-- **GitHub Actions Workflows**
-  - PR title validation
-  - Automated version bumping based on conventional commits
-  - Automated PR creation for version bumps
-  - GitHub Container Registry (GHCR) cleanup
-- **Windsurf Rules Integration**
-  - Documentation standards
-  - Git workflow guidelines
-  - Project structure templates
-- **Development Tools**
-  - Local workflow testing with [act CLI](https://github.com/nektos/act)
-  - Semantic versioning enforcement
-  - Conventional commit standards
+In this course, I'll learn how to use Claude Code, a highly agentic AI coding assistant that can help developers build software more efficiently. The course covers how to leverage Claude Code's capabilities for various coding tasks, from simple code generation to complex project development.
 
-## 🛠️ Prerequisites
+## Prerequisites
 
-- Node.js 20.0.0 or later
-- npm
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- [act CLI tool](https://github.com/nektos/act) (for local GitHub Actions and Workflow testing in isolated Docker containers)
+- Basic understanding of programming concepts
+- Familiarity with version control (Git)
+- Node.js and npm installed
+- Access to the DeepLearning.AI course materials
 
-## 🚦 Getting Started
+## Getting Started
 
-1. **Clone the repository**
+1. Clone this repository:
 
    ```bash
-   git clone https://github.com/TheRobBrennan/starting-point.git
-   cd starting-point
+   git clone https://github.com/TheRobBrennan/claude-code-a-highly-agentic-coding-assistant.git
+   cd claude-code-a-highly-agentic-coding-assistant
    ```
 
-## 🧪 Testing Workflows
+2. Install dependencies:
 
-This project includes GitHub Actions workflows that can be tested locally using the [act CLI tool](https://github.com/nektos/act).
+   ```bash
+   npm install
+   ```
 
-### Available Test Commands
+3. Follow along with the course materials and complete the exercises.
 
-- `npm test` - Run all workflow tests
-- `npm run test:workflows` - Test all workflows
-- `npm run test:workflows:pr-title` - Test PR title check with minor version bump
-- `npm run test:workflows:pr-title:major` - Test PR title check with major version bump
-- `npm run test:workflows:pr-title:minor` - Test PR title check with minor version bump
-- `npm run test:workflows:pr-title:patch` - Test PR title check with patch version bump
-- `npm run test:workflows:pr-title:invalid` - Test PR title check with invalid PR title
-- `npm run test:workflows:version-bump` - Test version bump workflow
-- `npm run test:workflows:ghcr-cleanup` - Test GHCR cleanup workflow
+## Available Scripts
 
-## 🤖 GitHub Actions
+The following npm scripts are available in this project:
 
-This repository includes the following GitHub Actions workflows:
+```bash
+npm test       # Run GitHub workflow tests using test-workflows.sh
+```
 
-- **PR Title Check**: Validates PR titles against conventional commit messages
-- **Version Bump**: Handles version bumping and changelog generation on merge to main
-- **GHCR Cleanup**: Automatically cleans up old GitHub Container Registry images
+Additional scripts will be added as they are created during the course.
 
-## 📋 Using This Template
+## Resources
 
-### Getting Started with Your New Project
+- [DeepLearning.AI Short Courses](https://www.deeplearning.ai/short-courses/)
+- [Official Claude Documentation](https://docs.anthropic.com/claude/)
 
-1. **Create a new repository from this template**
-   - Click the "Use this template" button on GitHub, or
-   - Clone this repository and push it to a new repository
+## License
 
-2. **Customize the template for your project**
-   - Update the `package.json` with your project details
-   - Modify the README.md to describe your project
-   - Adjust the Windsurf rules in `.windsurf/rules/` to match your project's needs
+This project is licensed under the MIT License.
 
-3. **Start developing**
-   - Add your project files
-   - Use the pre-configured GitHub workflows for PR validation and versioning
+## Acknowledgments
 
-### Customizing GitHub Workflows
-
-The template includes three main workflows:
-
-1. **PR Title Check** (`.github/workflows/pr-title-check.yml`)
-   - Validates that PR titles follow conventional commit format
-   - Customize validation rules if needed
-
-2. **Version Bump** (`.github/workflows/version-bump.yml`)
-   - Automatically creates version bump PRs after merges to main
-   - Adjusts version based on commit type (feat, fix, etc.)
-   - Customize the version bump behavior if needed
-
-3. **GHCR Cleanup** (`.github/workflows/ghcr-cleanup.yml`)
-   - Automatically cleans up old GitHub Container Registry images
-   - Configurable to keep a certain number of recent versions
-   - Can be run manually or on a schedule
-
-## 🤝 Contributing
-
-We welcome contributions! All commits must be GPG signed and follow the
-[conventional commit](https://www.conventionalcommits.org/) format.
-See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions.
-
-## 🙏 Acknowledgments
-
-- [act CLI tool](https://github.com/nektos/act) for local GitHub Actions testing
+- DeepLearning.AI for creating this educational content
+- Anthropic for developing Claude Code
