@@ -7,6 +7,14 @@ This document contains links to prompts and summaries for the DeepLearning.AI co
 - [Prompts & Summaries of Lessons](https://learn.deeplearning.ai/courses/claude-code-a-highly-agentic-coding-assistant/lesson/hhfj3/prompts-&-summaries-of-lessons)
 - [Course Repository](https://github.com/https-deeplearning-ai/sc-claude-code-files)
 
+## Anthropic Resources
+
+- [Claude Code Overview](https://docs.anthropic.com/en/docs/claude-code/overview)
+- [Common Workflows](https://docs.anthropic.com/en/docs/claude-code/common-workflows)
+- [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices)
+- [How Anthropic Teams Use Claude Code](https://www.anthropic.com/news/how-anthropic-teams-use-claude-code)
+- [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action)
+
 ## Summary of Claude Code Features
 
 ### Managing Project Memory
