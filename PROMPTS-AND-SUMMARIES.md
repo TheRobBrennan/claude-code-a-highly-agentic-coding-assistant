@@ -5,6 +5,7 @@ This document contains links to prompts and summaries for the DeepLearning.AI co
 ## Course Resources
 
 - [Prompts & Summaries of Lessons](https://learn.deeplearning.ai/courses/claude-code-a-highly-agentic-coding-assistant/lesson/hhfj3/prompts-&-summaries-of-lessons)
+- [Course Repository](https://github.com/https-deeplearning-ai/sc-claude-code-files)
 
 ## Summary of Claude Code Features
 
