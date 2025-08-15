@@ -1,6 +1,6 @@
 {
   "name": "claude-code-a-highly-agentic-coding-assistant",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "This repository contains my work for the DeepLearning.AI short course: [Claude Code: A Highly Agentic Coding Assistant](https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/).",
   "homepage": "https://github.com/TheRobBrennan/claude-code-a-highly-agentic-coding-assistant#readme",
   "bugs": {
